@@ -29,7 +29,7 @@
     <div id="flash-container"></div>
 
     <!-- Ścieżka do Twojego pliku ruffle.js -->
-    <script src="path/to/ruffle.js"></script>
+    <script src="ruffle.js"></script>
 
     <script>
         window.RufflePlayer = window.RufflePlayer || {};
@@ -41,7 +41,7 @@
             container.appendChild(player);
 
             // Załadowanie pliku .swf
-            player.load("twoja_gra.swf").then(() => {
+            player.load("double.swf").then(() => {
                 console.info("Flash załadowany pomyślnie!");
             }).catch((e) => {
                 console.error("Błąd ładowania pliku SWF: ", e);
